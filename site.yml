@@ -1,0 +1,7 @@
+---
+- name: Register Satellite 6 hosts for Red Hat Insights
+  hosts: all
+  become: true
+
+  roles:
+    register-insights

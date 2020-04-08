@@ -4,4 +4,4 @@
   become: true
 
   roles:
-    register-insights
+    - register-insights
